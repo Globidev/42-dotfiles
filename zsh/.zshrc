@@ -1,4 +1,4 @@
-export ZSH=/nfs/zfs-student-3/users/2013/gudepard/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 plugins=()
 
