@@ -21,3 +21,6 @@ brew install tree
 
 # Tmux
 ln -s ~/.dotfiles/tmux/.tmux.conf ~/
+
+# local bin folder
+mkdir ~/bin
