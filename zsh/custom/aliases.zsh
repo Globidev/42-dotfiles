@@ -10,3 +10,6 @@ alias gc="git checkout"
 
 # Tmux
 alias tma="tmux -2 attach"
+
+# Atom
+alias atom="open -a ~/bin/Atom.app"
