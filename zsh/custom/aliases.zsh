@@ -13,3 +13,6 @@ alias tma="tmux -2 attach"
 
 # Atom
 alias atom="open -a ~/bin/Atom.app"
+
+# tree
+alias tree="tree -C"
