@@ -12,12 +12,13 @@ brew update
 
 brew install tmux
 brew install htop
+brew install tree
+brew install fswatch
+
 # Fix git formula
 sed -i '' 126d ~/.brew/Library/Formula/git.rb
 brew install git
 cd ~/.brew && git reset --hard
-
-brew install tree
 
 # Tmux
 ln -s ~/.dotfiles/tmux/.tmux.conf ~/
