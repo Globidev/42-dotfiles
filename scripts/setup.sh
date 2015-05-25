@@ -25,3 +25,8 @@ ln -s ~/.dotfiles/tmux/.tmux.conf ~/
 
 # local bin folder
 mkdir ~/bin
+
+# Atom
+curl -L https://github.com/atom/atom/releases/download/v0.201.0/atom-mac.zip -o ~/bin/atom-mac.zip
+unzip ~/bin/atom-mac.zip -d ~/bin
+rm ~/bin/atom-mac.zip
