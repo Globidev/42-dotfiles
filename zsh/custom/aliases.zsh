@@ -9,7 +9,7 @@ alias gk="gitk --all"
 alias gc="git checkout"
 
 # Tmux
-alias tma="tmux -2 attach"
+alias tma="~/.dotfiles/tmux/attach_or_create.sh"
 
 # Atom
 alias atom="open -a ~/bin/Atom.app"

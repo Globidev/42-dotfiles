@@ -1,0 +1,13 @@
+tmux split-window -t .0 -h
+
+tmux send-keys -t .1 nload C-m
+sleep 1 # let nload time to boot up
+tmux send-keys -t .1 Right Right # change device
+
+tmux split-window -t .1 -v
+tmux send-keys -t .2 htop C-m
+tmux resize-pane -t .1 -R 70
+tmux resize-pane -t .2 -U 10
+tmux split-window -t .0 -v
+tmux resize-pane -t .3 -D 20
+tmux select-pane -t .0
