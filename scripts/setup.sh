@@ -31,3 +31,7 @@ mkdir ~/bin
 curl -L https://github.com/atom/atom/releases/download/v0.201.0/atom-mac.zip -o ~/bin/atom-mac.zip
 unzip ~/bin/atom-mac.zip -d ~/bin
 rm ~/bin/atom-mac.zip
+  # packages
+while read package; do
+  ~/bin/Atom.app/Contents/Resources/app/apm/bin/apm install $package
+done < ~/.dotfiles/atom/packages
