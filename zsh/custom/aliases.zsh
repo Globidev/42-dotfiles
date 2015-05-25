@@ -16,3 +16,7 @@ alias atom="open -a ~/bin/Atom.app"
 
 # tree
 alias tree="tree -C"
+
+# make
+alias m="make -j4"
+alias re="make fclean && m"
