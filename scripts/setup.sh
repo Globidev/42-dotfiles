@@ -14,6 +14,7 @@ brew install tmux
 brew install htop
 brew install tree
 brew install fswatch
+brew install nload
 
 # Fix git formula
 sed -i '' 126d ~/.brew/Library/Formula/git.rb
